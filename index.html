@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="pagina1" class="pagina activa">
+        <h1>Bienvenido a la Página Principal</h1>
+        <p>Esta página contiene botones para navegar entre las demás páginas:</p>
+        <ol>
+            <li>Página 1: Introducción</li>
+            <li>Página 2: Galería de Imágenes</li>
+            <li>Página 3: Operaciones Matemáticas</li>
+        </ol>
+
+        <!-- Mensaje de bienvenida dinámico -->
+        <p id="bienvenida" style="display: none; font-weight: bold; color: #007bff;"></p>
+
+        <!-- Botones -->
+        <button id="boton3">Mostrar Bienvenida</button>
+        <a href="pagina2.html"><button>Ir a Página 2</button></a>
+        <a href="pagina3.html"><button>Ir a Página 3</button></a>
+    </div>
+</body>
+
+</html>
